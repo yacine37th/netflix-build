@@ -40,7 +40,7 @@ function Banner() {
           <h1 className="Banner_discription">
             {descriptioLenght(
               `${movie?.overview}`,
-              150
+              150//dcdcdcdcdc
             )}
           </h1>
           <h1>ratting : {movie?.vote_average}</h1>

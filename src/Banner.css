@@ -1,0 +1,40 @@
+.Banner {
+    height: 440px;
+    width: 100%;
+    position: relative;
+}
+.banner_contents {
+    position: absolute;
+    top: 50%;
+}
+.banner_contents >h1 {
+    color: white;
+}
+
+.banner_contents .Movie_name {
+    font-size: 40px;
+}
+
+.banner_contents .Banner_button {
+    font-size: 18px;
+    padding: 5px 25px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin: 12px 0 ;
+    margin-right:15px ;
+    transition: 00.5s;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+}
+
+.banner_contents .Banner_button:hover {
+    background-color: white;
+    color: black;
+}
+
+.Banner_discription {
+    font-size: 18px;
+    font-weight: 700;
+}

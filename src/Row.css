@@ -1,0 +1,15 @@
+.row .container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.row .container .movies {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.row .container .movies::-webkit-scrollbar {
+    display: none;
+}
